@@ -3,24 +3,25 @@ body {
   background-image: url('spacey.gif');
   background-repeat: repeat;
   color: #ffffff;
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Times New Roman", Times, serif;
   margin: 40px auto;
   max-width: 650px;
 }
 
 header, nav, main, footer {
-  background-color: #c0c0c0; /* Windows silver border */
-  border: 3px outset #ffffff;
+  background-color: rgba(0, 0, 0, 0.8);; /* uhhhh i think i know what im doing idk */
+  opacity: 0.2;
+  border: 3px outset #8B0000;
   padding: 15px;
   margin-bottom: 15px;
-  color: #000000; /* Keeps box text black so it's easy to read on silver */
+  color: #ffffff; 
 }
 
 a {
-  color: #0000ff;
+  color: #66b2ff;
   font-weight: bold;
 }
 
 a:visited {
-  color: #800080;
+  color: #da70d6;
 }
