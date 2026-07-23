@@ -3,8 +3,7 @@ body {
   background-image: url('spacey.gif');
   background-repeat: repeat;
   color: #ffffff;
-  font-family: "Times New Roman", Times, serif;
-  margin: 40px auto;
+  font-family: "Courier New", Courier, monospace;  margin: 40px auto;
   max-width: 650px;
 }
 
