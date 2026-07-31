@@ -5,6 +5,7 @@ body {
   color: #ffffff;
   font-family: "Courier New", Courier, monospace;  margin: 40px auto;
   max-width: 650px;
+  margin-bottom: 0;
 }
 
 header, nav, main, footer {
@@ -13,11 +14,6 @@ header, nav, main, footer {
   padding: 15px;
   margin-bottom: 15px;
   color: #ffffff; 
-}
-
-@font-face {
-  font-family: 'Comic Sans MS';
-  src: url('Ldfcomicsansbold-zgma.ttf') format('truetype');
 }
 
 main {
@@ -33,4 +29,18 @@ nav a {
 nav a img {
   display: block; 
   border: none; 
+}
+
+.gif-container {
+  text-align: center;
+  padding-top: 20px;   
+  padding-bottom: 0;  
+  margin-bottom: 0;   
+}
+
+.gif-container img {
+  display: block;      
+  margin: 0 auto;     
+  width: 400px;       
+  height: auto;
 }
