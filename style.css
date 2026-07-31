@@ -5,6 +5,7 @@ body {
   color: #ffffff;
   font-family: "Courier New", Courier, monospace;  margin: 40px auto;
   max-width: 650px;
+  margin-bottom: 0px;
 }
 
 header, nav, main, footer {
